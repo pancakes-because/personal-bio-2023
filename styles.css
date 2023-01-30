@@ -1,0 +1,279 @@
+
+/* 
+
+AVAILABLE FONTS 
+
+font-family: 'Redacted', cursive;
+font-family: 'Silkscreen', cursive;
+
+font-family: 'Kumar One', cursive;
+font-family: 'Electrolize', sans-serif; 
+font-family: 'Overpass', sans-serif;
+
+font-family: 'Space Mono', monospace;
+font-family: 'Exo', sans-serif;
+font-family: 'Pridi', serif;
+
+*/ 
+
+/* ALL */ 
+/* the asterisk (*) targets all the code */ 
+/* used this to clear out the browser's automatic formatting that leaves spaces on the sides */
+
+* {
+    margin: 0; 
+    padding: 0; 
+}
+
+/* NAV */ 
+
+nav {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: flex-end; 
+    background-color: #121420; 
+
+    padding: 100px; 
+    border-bottom: 1px solid #f2f4f3; 
+
+} 
+
+nav li {
+    font-family: 'Silkscreen', cursive; 
+    /* font-family: 'Kumar One', cursive;  */
+    font-size: 40px; 
+    list-style: none; 
+
+} 
+
+nav li a {
+    text-decoration: none; 
+    margin: 30px; 
+} 
+
+nav li a:link {
+    color: #04e824;
+}
+
+nav li a:visited {
+    color: #138a36;
+}
+
+nav li a:hover {
+    color: #18ff6d;
+}
+
+nav li a:active {
+    color: #285238; 
+}
+
+/* PAGES */ 
+
+.about-page,
+.projects-page,
+.contact-page {
+    height: 100vh;  
+    background-color: #121420; 
+    border-bottom: 1px solid #f2f4f3; ; 
+}
+
+h1 {
+    font-family: 'Electrolize', sans-serif; 
+    font-size: 35px; 
+    color: #f2f4f3; 
+
+    margin-left: 20px;
+    padding-top: 25px; 
+}
+
+
+/* ABOUT PAGE */ 
+
+/* container for the paragraph, spans, and image in the "about me" section*/ 
+
+.about-content-container {
+
+    /* border: 1px solid white;  */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    
+}
+
+.about-page p {
+    font-family: 'Overpass', monospace;
+    font-size: 30px; 
+    color: #f2f4f3; 
+
+    margin-left: 100px;
+    width: 650px; 
+    padding-top: 112.56px;
+}
+
+/* the paragraph has span tags in it to distinguish some words/phrases and block these out */ 
+/* when the user hovers, the font changes and lets the user read it. the font color is also different to higlight this. */ 
+
+p span {
+    font-family: 'Redacted', cursive;
+}
+
+p span:hover { 
+    color: #04e824; 
+    font-family: 'Overpass', monospace;
+}
+
+/* for the image in the about page section */ 
+
+.about-page img { 
+    height: 400px;  
+    width: 650px; 
+    border-radius: 10px; 
+
+    margin-right: 100px;
+    margin-top: 116px; 
+
+} 
+
+
+/* PROJECTS PAGE */ 
+
+/* BOOTSTRAP CARDS */ 
+
+/* container holding all of the card components */ 
+/* used flexbox here to help align them on the page as desired  */ 
+
+.card-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+/* put spacing around each card */ 
+
+.card {
+    margin-top: 200px; 
+    margin-left: 60px; 
+    margin-right: 60px; 
+}
+
+/* lets me order where the "hello, hotcakes!" card is */ 
+/* i put it in the middle to draw attention to it */  
+
+/* .hotcakes {
+    order: 1; 
+} */
+
+/* context and spacing inside the card */ 
+
+.card-body {
+    border: 1px solid #04e824; 
+    background-color: #121420;
+    color: #f2f4f3;
+}
+
+.card-body h5 {
+    font-family: 'Electrolize', sans-serif; 
+}
+
+.card-body p {
+    font-family: 'Overpass', monospace;
+}
+
+/* customizing the card buttons with different colors and effects */ 
+
+.card a  {
+
+    color: #121420; 
+    background-color: #f2f4f3; 
+}
+
+.card a:hover  {
+
+    color: #121420; 
+    background-color: #04e824; 
+}
+
+.card a:visited {
+
+    color: #121420; 
+    background-color: #04e824; 
+}
+
+.card a:active {
+
+    color: #121420; 
+    background-color: #04e824; 
+}
+
+/* CONTACT PAGE */ 
+
+/* for flexbox if desired */ 
+
+/* .contact-links-container {
+    display: flex; 
+    flex-direction: column;  
+} */
+
+.contact-link {
+    font-family: 'Silkscreen', cursive;
+    font-size: 50px; 
+    text-decoration: none; 
+
+    margin-left: 20px; 
+}
+
+.contact-links-container a:link {
+    color: #04e824; 
+}
+
+.contact-links-container a:visited {
+    color: #138a36;
+}
+
+.contact-links-container a:hover {
+    color: #18ff6d;
+}
+
+.contact-links-container a:active {
+    color: #285238; 
+}
+
+
+/* FOOTER */ 
+
+/* creates space at the bottom for the footer content */ 
+/* margin creates space around the text inside the footer container, the border-bottom */ 
+
+footer {
+
+    font-family:'Overpass', monospace;
+    margin: 20px; 
+    border-bottom: 10px; 
+}
+
+/* gives color to the text and removes the natural link underline */ 
+
+footer a {
+
+    color: #04e824; 
+    text-decoration: none; 
+}
+
+/* similar to the link effects for the navbar */ 
+
+footer a:link {
+    color: #04e824;
+}
+
+footer a:visited {
+    color: #138a36;
+}
+
+footer a:hover {
+    color: #18ff6d;
+}
+
+footer a:active {
+    color: #285238; 
+}
+
