@@ -107,7 +107,7 @@ h1 {
 
     margin-left: 100px;
     width: 650px; 
-    padding-top: 112.56px;
+    padding-top: 142.56px;
 }
 
 /* the paragraph has span tags in it to distinguish some words/phrases and block these out */ 
@@ -207,7 +207,7 @@ p span:hover {
 
 /* CONTACT PAGE */ 
 
-/* for flexbox if desired */ 
+/* for using flexbox to change the alignment if desired */ 
 
 /* .contact-links-container {
     display: flex; 
@@ -238,6 +238,49 @@ p span:hover {
     color: #285238; 
 }
 
+#github {
+
+    position: relative; 
+    top: 55.5px; 
+    left: 200px;
+
+    writing-mode: vertical-rl;
+    text-orientation: upright; 
+
+}
+
+#discord {
+
+    position: relative; 
+    top: 82px; 
+    left: 555px;
+
+    writing-mode: vertical-rl;
+    text-orientation: upright; 
+
+}
+
+#linkedin {
+
+    position: relative; 
+    top: 125px; 
+    left: 610.5px;
+
+    /* writing-mode: vertical-rl;
+    text-orientation: upright;  */
+
+}
+
+#instagram {
+
+    position: relative; 
+    top: -385px; 
+    left: 100px;
+
+}
+
+
+
 
 /* FOOTER */ 
 
@@ -247,8 +290,8 @@ p span:hover {
 footer {
 
     font-family:'Overpass', monospace;
-    margin: 20px; 
     border-bottom: 10px; 
+    padding: 10px; 
 }
 
 /* gives color to the text and removes the natural link underline */ 
