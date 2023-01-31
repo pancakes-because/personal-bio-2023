@@ -27,7 +27,9 @@ font-family: 'Pridi', serif;
 
 /* NAV */ 
 
-nav {
+/* FLEXBOX NAV OPTION */ 
+
+/* nav {
     display: flex; 
     flex-direction: row; 
     justify-content: flex-end; 
@@ -36,6 +38,55 @@ nav {
     padding: 100px; 
     border-bottom: 1px solid #f2f4f3; 
 
+}  */
+
+/* nav li {
+    font-family: 'Silkscreen', cursive; 
+    font-family: 'Kumar One', cursive;  
+    font-size: 40px; 
+    list-style: none; 
+
+}  */
+
+/* POSITION NAVBAR OPTION */ 
+
+/* .nav-container {
+
+    position: fixed; 
+    top: 0; 
+    width: 100%
+} */
+
+
+/* BODY */ 
+
+/* NAVBAR BUG */ 
+/* when the navbar is fixed to the top, using position: fixed, padding-top: 260px for body styles keeps the nav bar from hiding the about me content on the page */ 
+/* BUT the padding also causes problems when you click a link in the nav */ 
+/* you get taken to the middle of the section and not the beginning of it */ 
+/* found this by commenting out position: fixed in nav styles */ 
+/* */ 
+
+body { 
+
+    padding-top: 260px; 
+}
+
+
+nav {
+
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1;
+
+    display: flex; 
+    flex-direction: row; 
+    justify-content: flex-end; 
+    background-color: #121420; 
+
+    padding: 100px; 
+    border-bottom: 1px solid #f2f4f3; 
 } 
 
 nav li {
@@ -97,6 +148,9 @@ h1 {
     display: flex; 
     justify-content: space-between; 
     align-items: center;
+
+    border-top: 1px; 
+
     
 }
 
@@ -133,7 +187,6 @@ p span:hover {
     margin-top: 116px; 
 
 } 
-
 
 /* PROJECTS PAGE */ 
 
@@ -214,8 +267,13 @@ p span:hover {
     flex-direction: column;  
 } */
 
+/* .contact-page {
+    height: 100vh;
+}  */
+
 .contact-link {
     font-family: 'Silkscreen', cursive;
+    /* font-family: 'Kumar One', cursive;  */
     font-size: 50px; 
     text-decoration: none; 
 
