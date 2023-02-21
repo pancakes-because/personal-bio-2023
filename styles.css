@@ -1,4 +1,3 @@
-
 /* 
 
 AVAILABLE FONTS 
@@ -28,19 +27,21 @@ font-family: 'Hind Vadodara', sans-serif;
 
 /* NAV */ 
 
+#resume {
+    color: #00FF41; 
+}
 
 /* PAGES */ 
 
-.about-page,
+/* .about-page,
 .projects-page,
 .contact-page {
     height: 100vh;
-    background-color:  #000000;
-}
+    background-color:  #0D0208;
+} */
 
-h1 {
-    font-family: 'Exo', sans-serif; 
-    color: #f2f4f3; 
+h1, p {
+    color: #FFFDFD; 
 }
 
 
@@ -48,149 +49,58 @@ h1 {
 
 /* container for the paragraph, spans, and image in the "about me" section*/ 
 
+.about-page {
+    height: 100vh;
+    background-color:  #0D0208;
+}
 
 .about-page p {
-    font-family: 'Overpass', monospace;
     font-size: 30px; 
-    color: #f2f4f3; 
+    color: #FFFDFD; 
 }
 
-p span {
-    color: #04e824; 
+.about-page p span {
+    color: #00FF41; 
 }
 
-/* p span:hover { 
-    color: #04e824; 
-    font-family: 'Overpass', monospace;
-} */
-
-/* for the image in the about page section */ 
-
-.about-page img { 
-    height: 450px;  
-    width: 650px; 
-    border-radius: 10px; 
-} 
+.move-about {
+    margin-top: 195px;
+}
 
 /* PROJECTS PAGE */ 
 
+.projects-page {
+    height: 100vh;
+    background-color:  #0D0208;
+} 
+
+.move-projects {
+    margin-top: 135px; 
+}
+
 /* BOOTSTRAP CARDS */ 
 
-/* container holding all of the card components */ 
-/* used flexbox here to help align them on the page as desired  */ 
-
-
-/* context and spacing inside the card */ 
-
-.card-body {
-    border: 1px solid #04e824; 
-    background-color: #121420;
-    color: #f2f4f3;
+.card-title, .card-text {
+    color: #fffdfd; 
 }
 
-.card-body h5 {
-    font-family: 'Electrolize', sans-serif; 
+
+/* .card-body a:active {
+    background-color: #00ff41; 
+    color: #0d0208; 
 }
 
-.card-body p {
-    font-family: 'Overpass', monospace;
-}
-
-/* customizing the card buttons with different colors and effects */ 
+.card-body a:hover {
+    background-color: #00ff41; 
+    color: #0d0208; 
+} */
 
 
 /* CONTACT PAGE */ 
 
-.contact-link {
-    font-family: 'Metal Mania', cursive; 
-    letter-spacing: 1rem;
-    font-size: 50px; 
-    text-decoration: none; 
-}
-
-/* .contact-links-container a:link {
-    color: #04e824; 
-} */
-
-/* .contact-links-container a:visited {
-    color: #138a36;
-} */
-
-/* .contact-links-container a:hover {
-    color: #18ff6d;
-} */
-
-/* .contact-links-container a:active {
-    color: #285238; 
-} */
-
-/* lets me position and rorate the contact links to be a square or whatever formation i want */ 
-
-#github {
-
-    position: relative; 
-    top: 55.5px; 
-    left: 200px;
-
-    writing-mode: vertical-rl;
-    text-orientation: upright; 
-
-}
-
-#discord {
-
-    position: relative; 
-    top: 82px; 
-    left: 555px;
-
-    writing-mode: vertical-rl;
-    text-orientation: upright; 
-
-}
-
-#linkedin {
-
-    position: relative; 
-    top: 125px; 
-    left: 610.5px;
-
-    /* writing-mode: vertical-rl;
-    text-orientation: upright;  */
-
-}
-
-#instagram {
-
-    position: relative; 
-    top: -385px; 
-    left: 100px;
-
+.contact-page {
+    height: 100vh;
+    background-color:  #0D0208;
 }
 
 /* FOOTER */ 
-
-/* creates space at the bottom for the footer content */ 
-/* margin creates space around the text inside the footer container, the border-bottom */ 
-
-footer {
-
-    font-family:'Overpass', monospace;
-}
-
-/* gives color to the text and removes the natural link underline */ 
-
-footer a {
-    color: #04e824; 
-    text-decoration: none; 
-}
-
-/* similar to the link effects for the navbar */ 
-
-footer a:link {
-    color: #04e824;
-}
-
-footer a:active {
-    color: #285238; 
-}
-
