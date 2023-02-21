@@ -56,9 +56,17 @@
                 <li class="nav-item">
                     <a class="nav-link text-white" href="#contact-page">contact</a>
                 </li>
+
+                <!-- opens a new tab when clicked. user can view pdf and choose to download it. -->
                 <li class="nav-item">
-                    <a class="nav-link text-success" href="#">download resume</a>
+                    <a class="nav-link" id="resume" href="/resume/diya-obrien-resume-2023.pdf"
+                        target="_blank">resume</a>
                 </li>
+
+                <!-- pdf is downloaded immediately when clicked  -->
+                <!-- <li class="nav-item">
+                    <a class="nav-link text-success" href="/resume/diya-obrien-resume-2023.pdf" download="diya-obrien-resume-2023.pdf">download resume</a>
+                </li> -->
             </ul>
         </div>
     </nav>
@@ -67,14 +75,14 @@
 
     <section class="about-page pt-5" id="about-page">
         <h1 class="py-3">about me</h1>
-        <div class="about-content-container">
-            <p>
+        <div class="d-flex justify-content-around move-about">
+            <p class="w-25 h-25 align-self-center">
                 my name is <span>diya</span>. i am a <span>front-end web developer</span>, and
-                i work in <span>html, css, javascript, bootstrap, and react</span>. i am also interested in <span>ui
+                i work in <span>html, css, javascript, react, and bootstrap</span>. i am also interested in <span>ui
                     design and ux design</span>. most of my creative inspiration comes from movies, video games, art,
                 and fashion.
             </p>
-            <img src="/images/milad-fakurian-c10tq-bB52Y-unsplash.jpg" alt="profile">
+            <img class=" w-25 h-25 align-self-center" src="/images/black_white_portfolio_cropped_big.png" alt="profile">
         </div>
     </section>
 
@@ -83,43 +91,57 @@
         <h1 class="py-3">projects</h1>
         <!-- start bootstrap card code -->
 
-        <div class="d-flex justify-content-center">
-
-            <div class="card mb-3 w-25">
-                <img class="card-img-top" src="/images/annie-spratt-b0_y6Ly_k6Y-unsplash.jpg" alt="Card image cap">
+        <div class="d-flex justify-content-around move-projects">
+            <div class="card mx-3 mb-3 w-25 bg-transparent border border-white">
+                <img class="card-img-top" src="/images/moreno-matkovic-lm9DiTkfx7I-unsplash.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">hello, hotcakes!</h5>
-                    <p class="card-text"> order online now! savor some sweet stacks from the best pancake restaurant in the south. </p>
+                    <p class="card-text"> savor some sweet stacks from the best pancake restaurant in
+                        the
+                        south. order online now! </p>
+
+                    <!-- <span class="badge text-bg-dark">🥞 solo project</span> -->
                     <p class="card-text"><small class="text-muted"> 🥞 solo project</small></p>
-                    <a href="https://github.com/pancakes-because/hello-hotcakes" class="btn btn-primary"
-                        target="_blank">view</a>
+
+                    <a href="https://github.com/pancakes-because/hello-hotcakes" class="btn btn-success btn-sm"
+                        target="_blank">view github repo</a>
+                    <a href=# class="btn btn-success btn-sm" target="_blank">project proposal</a>
+                    <!-- <a href="#" class="card-link">proposal</a> -->
+                    <!-- <a href="#" class="card-link">erd</a> -->
+                    <!-- <a href="#" class="card-link">lo-fi mockup</a> -->
                 </div>
             </div>
 
-            <div class="card mx-3 mb-3 w-25">
-                <img class="card-img-top" src="/images/annie-spratt-b0_y6Ly_k6Y-unsplash.jpg" alt="Card image cap">
+            <div class="card mx-3 mb-3 w-25 bg-transparent border border-white">
+                <img class="card-img-top" src="/images/moreno-matkovic-lm9DiTkfx7I-unsplash.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">new ux project</h5>
+                    <p class="card-text">coming soon coming soon coming soon coming soon coming soon coming soon coming
+                        soon </p>
+                    <p class="card-text"><small class="text-muted"> 🌈 solo project</small></p>
+                    <a href="https://github.com/vanessaspear/worst-website" class="btn btn-secondary btn-sm disabled"
+                        target="_blank">view github repo</a>
+                    <a href="#" class="btn btn-secondary btn-sm disabled">case study</a>
+                    <!-- <a href="#" class="btn btn-primary btn-sm disabled">erd</a> -->
+                    <!-- <a href="#" class="btn btn-primary btn-sm disabled">lo-fi mockup</a> -->
+                </div>
+            </div>
+
+            <!-- <div class="card mx-3 mb-3 w-25 bg-transparent border border-white">
+                <img class="card-img-top" src="/images/shine_-photos-_PsPZt4_xts-unsplash.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title"> bookyourflighttomarsandotherheavenlybodiesyouwon'tregretit.com</h5>
-                    <p class="card-text">ruin your next family vacation and crash your computer on the world's worst space travel website! </p>
+                    <p class="card-text">ruin your next family vacation and crash your computer on the world's worst
+                        space
+                        travel website! </p>
                     <p class="card-text"><small class="text-muted"> 🚀 group project</small></p>
-                    <a href="https://github.com/vanessaspear/worst-website" class="btn btn-primary"
+                    <a href="https://github.com/vanessaspear/worst-website" class="btn btn-primary btn-sm"
                         target="_blank">view</a>
                 </div>
-            </div>
-
-            <div class="card mb-3 w-25">
-                <img class="card-img-top" src="/images/annie-spratt-b0_y6Ly_k6Y-unsplash.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">new project</h5>
-                    <p class="card-text">coming soon coming soon coming soon coming soon coming soon coming soon coming
-                        soon coming soon </p>
-                    <p class="card-text"><small class="text-muted"> ✨ solo project</small></p>
-                    <a href="https://github.com/vanessaspear/worst-website" class="btn btn-primary disabled"
-                        target="_blank">view</a>
-                </div>
-            </div>
+            </div> -->
 
         </div>
+
         <!-- end bootstrap card code -->
     </section>
 
@@ -130,38 +152,20 @@
                 target="_blank">LinkedIn</a>
             <a href="https://github.com/pancakes-because" class="contact-link" id="github" target="_blank">GitHub</a>
             <!-- <a href="discordapp.com/users/diya_obrien#1876" class="contact-link" id= "discord" target="_blank">Discord</a> -->
-            <a href="https://discord.com/" class="contact-link" id="discord" target="_blank">Discord</a>
             <a href="https://www.instagram.com/" class="contact-link" id="instagram" target="_blank">Instagram</a>
         </div>
     </section>
 
-    <footer>
-        <p>credits: photo by <a
-                href="https://unsplash.com/@fakurian?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Milad
-                Fakurian</a> on <a
-                href="https://unsplash.com/photos/c10tq-bB52Y?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-        </p>
+    <!-- Photo by <a href="https://unsplash.com/de/@tannnpro?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tanya Pro</a> on <a href="https://unsplash.com/photos/owsMyLm_E0M?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
 
-        <!-- Photo by <a href="https://unsplash.com/@lintin9095?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Linh Ha</a> on <a href="https://unsplash.com/photos/nt6KRD9im7A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
+     <!-- Photo by <a href="https://unsplash.com/@darkindigo88?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Moreno Matković</a> on <a href="https://unsplash.com/photos/A_7s4tbP6lI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
 
-        <!-- Photo by <a href="https://unsplash.com/@mohamad_babayan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mohamad Babayan</a> on <a href="https://unsplash.com/photos/WOvyiIhHCok?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
-        <!--   
-        Photo by <a href="https://unsplash.com/@roma_kaiuk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Roma Kaiuk🇺🇦</a> on <a href="https://unsplash.com/photos/kCEV9R-40wc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-   -->
+    <!-- Photo by <a href="https://unsplash.com/@lara_corviello?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">☀️Shine_ Photos</a> on <a href="https://unsplash.com/photos/_PsPZt4_xts?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
 
-        <!-- Photo by <a href="https://unsplash.com/@blrguillaume?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Guillaume Bleyer</a> on <a href="https://unsplash.com/photos/ET7Kd9c8KvA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
+    <!-- Photo by <a href="https://unsplash.com/@natural?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Gabriel</a> on <a href="https://unsplash.com/photos/h73jxsQwecc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
 
-        <!-- Photo by <a href="https://unsplash.com/@lara_corviello?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">☀️Shine_ Photos</a> on <a href="https://unsplash.com/photos/_PsPZt4_xts?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
-        <!-- 
-        Photo by <a href="https://unsplash.com/@thenikyv?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Niketh Vellanki</a> on <a href="https://unsplash.com/photos/QkSN_8XcXwQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
-
-        <!-- Photo by <a href="https://unsplash.com/de/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Annie Spratt</a> on <a href="https://unsplash.com/photos/xIafeVJuZnc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
-
-
-
-
-    </footer>
-
+    <!-- Photo by <a href="https://unsplash.com/@mganeolsen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Michael Olsen</a> on <a href="https://unsplash.com/photos/5T21U3hxcdg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
+  
 </body>
 
 </html>
