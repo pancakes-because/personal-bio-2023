@@ -27,6 +27,10 @@ font-family: 'Hind Vadodara', sans-serif;
 
 /* NAV */ 
 
+.navbar-brand, .nav-item {
+    font-family: 'Hind Vadodara', sans-serif; 
+}
+
 #resume {
     color: #00FF41; 
 }
@@ -40,7 +44,8 @@ font-family: 'Hind Vadodara', sans-serif;
     background-color:  #0D0208;
 } */
 
-h1, p {
+h1 {
+    font-family: 'Cabin Sketch', sans-serif;
     color: #FFFDFD; 
 }
 
@@ -55,7 +60,8 @@ h1, p {
 }
 
 .about-page p {
-    font-size: 30px; 
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 20px; 
     color: #FFFDFD; 
 }
 
@@ -63,8 +69,16 @@ h1, p {
     color: #00FF41; 
 }
 
+/* my picture  
+
 .move-about {
     margin-top: 195px;
+} */
+
+/* tanya's picture */  
+
+.move-about {
+    margin-top: 110px;
 }
 
 /* PROJECTS PAGE */ 
@@ -75,14 +89,36 @@ h1, p {
 } 
 
 .move-projects {
-    margin-top: 135px; 
+    margin-top: 105px; 
 }
 
 /* BOOTSTRAP CARDS */ 
 
+/* .card-title {
+    font-family: 'Press Start 2P', cursive;
+    color: #fffdfd; 
+} */
+
 .card-title, .card-text {
+    font-family: 'Hind Vadodara', cursive;
     color: #fffdfd; 
 }
+
+/* .card-title {
+    font-family: 'Hind Vadodara', cursive;
+    color: #fffdfd; 
+}
+
+.card-text {
+    font-family: 'Hind Vadodara', cursive;
+    color: #fffdfd; 
+} */
+
+.btn {
+    font-family: 'Hind Vadodara', cursive;
+    color: #fffdfd; 
+}
+
 
 
 /* .card-body a:active {
@@ -102,5 +138,38 @@ h1, p {
     height: 100vh;
     background-color:  #0D0208;
 }
+
+.move-contact {
+    margin-top: 105px; 
+}
+
+#email {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px; 
+    color: #fffdfd; 
+    text-decoration: none; 
+} 
+
+#phone {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px; 
+    color: #fffdfd; 
+    text-decoration: none; 
+} 
+
+#linkedin {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px; 
+    color: #fffdfd; 
+    text-decoration: none; 
+} 
+
+#github {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px; 
+    color: #fffdfd; 
+    text-decoration: none; 
+}
+
 
 /* FOOTER */ 
