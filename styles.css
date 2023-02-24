@@ -50,6 +50,7 @@ see "font-pics" folder for images of the pairs
 h1 {
     font-family: 'Cabin Sketch', sans-serif;
     color: #FFFDFD;
+    margin-left: 20px; 
 }
 
 
@@ -72,13 +73,7 @@ h1 {
     color: #00FF41;
 }
 
-/* my picture  
-
-.move-about {
-    margin-top: 195px;
-} */
-
-/* tanya's picture */
+/* image in the "about me" section */
 
 .move-about {
     margin-top: 110px;
