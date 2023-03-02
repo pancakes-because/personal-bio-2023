@@ -85,7 +85,7 @@ h1 {
     color: #fffdfd;
 
     /* padding-left: 180px;  */
-    padding-left: 982.5px; 
+    padding-left: 982px; 
 }
 
 /* PROJECTS PAGE */
@@ -96,7 +96,7 @@ h1 {
 }
 
 .move-projects {
-    margin-top: 105px;
+    margin-top: 80px;
 }
 
 /* BOOTSTRAP CARDS */
