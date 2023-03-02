@@ -70,42 +70,89 @@
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        
+
     </nav>
 
     <!-- end of bootstrap nav bar -->
+
+    <!-- <section class="about-page pt-5" id="about-page">
+        <h1 class="py-3">about me</h1>
+        <div class="d-flex justify-content-around move-about">
+            <p class="w-25 h-25 align-self-center">
+                hi, my name is <span>diya</span>. i am a <span>front-end web developer</span>, and
+                i like <span>html, css, javascript, react, and bootstrap</span>. i am also interested in <span>ux
+                    design</span>. my creative inspiration comes from movies, video games, art,
+                and fashion.
+            </p>
+
+            <img class=" w-25 h-25 align-self-center" src="/images/about-pics/tanya-pro-owsMyLm_E0M-unsplash.jpg"
+                alt="analogue photo of chair and table inside store cast in dim, green light">
+        </div>
+    </section> -->
 
     <section class="about-page pt-5" id="about-page">
         <h1 class="py-3">about me</h1>
         <div class="d-flex justify-content-around move-about">
             <p class="w-25 h-25 align-self-center">
-                my name is <span>diya</span>. i am a <span>front-end web developer</span>, and
-                i work in <span>html, css, javascript, react, and bootstrap</span>. i am also interested in <span>ui
-                    design and ux design</span>. most of my creative inspiration comes from movies, video games, art,
+                hi, my name is <span>diya</span>. i am a <span>front-end web developer</span>, and
+                i like <span>html, css, javascript, react, and bootstrap</span>. i am also interested in <span>ux
+                    design</span>. my creative inspiration comes from movies, video games, art,
                 and fashion.
             </p>
-            <img class=" w-25 h-25 align-self-center" src="/images/about-pics/tanya-pro-owsMyLm_E0M-unsplash.jpg"
+
+
+            <!-- <div class="d-flex flex-column">
+                <img class=" w-50 h-100 align-self-center p-2" src="/images/about-pics/tanya-pro-owsMyLm_E0M-unsplash.jpg"
+                alt="analogue photo of chair and table inside store cast in dim, green light">
+
+                <p class="card-text p-2"><small class="text-muted about-img-src">photo by <a
+                    href="https://unsplash.com/de/@tannnpro?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                    target="_blank">tanya
+                    pro</a> on <a
+                    href="https://unsplash.com/photos/owsMyLm_E0M?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                    target="_blank">unsplash</a></small>
+                </p> 
+            </div> -->
+
+
+            <img class=" w-25 h-25 align-self-center p-2" src="/images/about-pics/tanya-pro-owsMyLm_E0M-unsplash.jpg"
                 alt="analogue photo of chair and table inside store cast in dim, green light">
         </div>
+
+        <p class="card-text"><small class="text about-img-src-txt">photo by <a
+                    href="https://unsplash.com/de/@tannnpro?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                    target="_blank">tanya
+                    pro</a> on <a
+                    href="https://unsplash.com/photos/owsMyLm_E0M?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                    target="_blank">unsplash</a></small>
+        </p>
     </section>
 
 
     <section class="projects-page pt-5" id="projects-page">
-        <h1 class="py-3">projects</h1>
+        <h1 class="py-3">fav. projects</h1>
         <!-- start bootstrap card code -->
 
         <div class="d-flex justify-content-around move-projects">
             <div class="card mx-3 mb-3 w-25 bg-transparent border border-white">
-                <img class="card-img-top" src="/images/card-pics/vanessa-lai-rEQeK9feQfg-unsplash.jpg" alt="Card image cap">
+                <div class="card-header">
+                    <p class="card-text"><small class="text">photo by <a
+                                href="https://unsplash.com/@vanessa_lai?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                target="_blank">vanessa
+                                lai</a> on <a
+                                href="https://unsplash.com/photos/rEQeK9feQfg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                target="_blank">unsplash</a></small>
+                    </p>
+                </div>
+                <img class="card-img-top" src="/images/card-pics/vanessa-lai-rEQeK9feQfg-unsplash.jpg"
+                    alt="Card image cap">
+
                 <div class="card-body">
                     <h5 class="card-title">hello, hotcakes!</h5>
-                    <p class="card-text"> savor some sweet stacks from the best pancake restaurant in
+                    <p class="card-text"> savor some sweet stacks from the best imaginary pancake restaurant in
                         the
                         south. order online now! </p>
-
-                    <!-- <span class="badge text-bg-dark">🥞 solo project</span> -->
-                    <!-- <p class="card-text"><small class="text-muted"> 🥞 solo project</small></p> -->
-                    <p class="card-text"><small class="text-muted"> solo project</small></p>
+                    <p class="card-text"><small class="text-muted">web app; react, javascript, css</small></p>
 
                     <a href="https://github.com/pancakes-because/hello-hotcakes" class="btn btn-success btn-sm"
                         target="_blank">view demo</a>
@@ -117,30 +164,60 @@
             </div>
 
             <div class="card mx-3 mb-3 w-25 bg-transparent border border-white">
-                <img class="card-img-top" src="/images/card-pics/annie-spratt-C1-i5JWgmo8-unsplash.jpg" alt="Card image cap">
+                <div class="card-header">
+                    <p class="card-text"><small class="text">photo by <a
+                                href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                target="_blank">annie
+                                spratt</a> on <a
+                                href="https://unsplash.com/photos/C1-i5JWgmo8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                target="_blank">unsplash</a></small>
+                    </p>
+                </div>
+
+                <img class="card-img-top" src="/images/card-pics/annie-spratt-C1-i5JWgmo8-unsplash.jpg"
+                    alt="Card image cap">
+
+
                 <div class="card-body">
-                    <h5 class="card-title">new ux project</h5>
+                    <h5 class="card-title">rhino splits</h5>
                     <p class="card-text">coming soon coming soon coming soon coming soon coming soon coming soon coming
                         soon </p>
 
                     <!-- <p class="card-text"><small class="text-muted"> 🦏 solo project</small></p> -->
-                    <p class="card-text"><small class="text-muted"> solo project</small></p>
+                    <p class="card-text"><small class="text-muted"> hi-fi prototype; figma, jamboard, canva,
+                            medium</small></p>
 
                     <a href="#" class="btn btn-secondary btn-sm disabled" target="_blank">view demo</a>
                     <a href="#" class="btn btn-secondary btn-sm disabled">case study</a>
                     <!-- <a href="#" class="btn btn-primary btn-sm disabled">erd</a> -->
                     <!-- <a href="#" class="btn btn-primary btn-sm disabled">lo-fi mockup</a> -->
+
                 </div>
             </div>
 
             <!-- <div class="card mx-3 mb-3 w-25 bg-transparent border border-white">
-                <img class="card-img-top" src="/images/shine_-photos-_PsPZt4_xts-unsplash.jpg" alt="Card image cap">
+                <img class="card-img-top" src="/images/card-pics/annie-spratt-C1-i5JWgmo8-unsplash.jpg"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">new project</h5>
+                    <p class="card-text">coming soon coming soon coming soon coming soon coming soon coming soon coming
+                        soon </p>
+
+                    <p class="card-text"><small class="text-muted"> coming soon</small></p>
+
+                    <a href="#" class="btn btn-secondary btn-sm disabled" target="_blank">view demo</a>
+                    <a href="#" class="btn btn-secondary btn-sm disabled">case study</a> 
+                </div>
+            </div> -->
+
+            <!-- <div class="card mx-3 mb-3 w-25 bg-transparent border border-white">
+                <img class="card-img-top" src="/images/card-pics/julia-borges-hd0ZKh8VjhQ-unsplash.jpg " alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title"> bookyourflighttomarsandotherheavenlybodiesyouwon'tregretit.com</h5>
-                    <p class="card-text">ruin your next family vacation and crash your computer on the world's worst
+                    <p class="card-text">ruin your next family vacation to mars on the world's worst
                         space
                         travel website! </p>
-                    <p class="card-text"><small class="text-muted"> 🚀 group project</small></p>
+                    <p class="card-text"><small class="text-muted"> javascript, css</small></p>
                     <a href="https://github.com/vanessaspear/worst-website" class="btn btn-primary btn-sm"
                         target="_blank">view</a>
                 </div>
@@ -184,8 +261,8 @@
     <!-- Photo by <a href="https://unsplash.com/@lara_corviello?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">☀️Shine_ Photos</a> on <a href="https://unsplash.com/photos/_PsPZt4_xts?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
 
     <!-- 
-    Photo by <a href="https://unsplash.com/@moriahaslan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Moriah Wolfe</a> on <a href="https://unsplash.com/photos/Fs-oxqZj7p8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> --> 
-    
+    Photo by <a href="https://unsplash.com/@moriahaslan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Moriah Wolfe</a> on <a href="https://unsplash.com/photos/Fs-oxqZj7p8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
+
     <!-- 
     Photo by <a href="https://unsplash.com/@analogicasdajulia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Júlia Borges</a> on <a href="https://unsplash.com/photos/hd0ZKh8VjhQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
 
@@ -195,12 +272,11 @@
     <!-- Photo by <a href="https://unsplash.com/@vanessa_lai?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vanessa Lai</a> on <a href="https://unsplash.com/photos/rEQeK9feQfg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
    -->
 
-   <!-- Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Annie Spratt</a> on <a href="https://unsplash.com/photos/C1-i5JWgmo8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    <!-- Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Annie Spratt</a> on <a href="https://unsplash.com/photos/C1-i5JWgmo8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
    -->
 
-   <!-- Photo by <a href="https://unsplash.com/@eags_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Eagan Hsu</a> on <a href="https://unsplash.com/photos/ungATHs5554?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    <!-- Photo by <a href="https://unsplash.com/@eags_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Eagan Hsu</a> on <a href="https://unsplash.com/photos/ungATHs5554?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
    -->
-
 
 </body>
 
