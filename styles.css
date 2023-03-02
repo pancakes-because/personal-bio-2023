@@ -76,7 +76,16 @@ h1 {
 /* image in the "about me" section */
 
 .move-about {
-    margin-top: 110px;
+    margin-top: 20px;
+}
+
+.about-img-src-txt {
+    font-family: 'Hind Vadodara', cursive;
+    font-size: 0.9rem; 
+    color: #fffdfd;
+
+    /* padding-left: 180px;  */
+    padding-left: 982.5px; 
 }
 
 /* PROJECTS PAGE */
@@ -117,6 +126,11 @@ h1 {
     font-family: 'Hind Vadodara', cursive;
     color: #fffdfd;
 } */
+
+.card-text a {
+    color: #00FF41; 
+    text-decoration: none; 
+}
 
 .btn {
     font-family: 'Hind Vadodara', cursive;
